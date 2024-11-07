@@ -14,11 +14,13 @@ contButton.addEventListener("click", function () {
         contButton.innerText = "Spegni";
         changeImg.src = "./img/yellow_lamp.png";
         changeImg.alt = "lampOn";
-    //    changeImg.src = 
+        changeImg.className = "rotateY";
+        console.log(changeImg);
     } else if (contButton.innerText.includes("Spegni")) {
         changeImg.src = "./img/white_lamp.png";
         changeImg.alt = "lampOff";
         contButton.innerText = "Accendi";
+        changeImg.classList.remove("rotateY");
     }
 }
 );

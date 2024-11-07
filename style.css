@@ -23,3 +23,7 @@ h1 {
     transform: rotateY(180deg);
     
 }
+
+.bg-contrast {
+    background-color: rgb(240, 236, 167);
+}
